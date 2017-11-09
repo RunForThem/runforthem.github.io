@@ -2099,6 +2099,9 @@
             },
             ".mbr-section-subtitle B": {
               "color": "#007740"
+            },
+            "B": {
+              "color": "#232323"
             }
           },
           "_name": "content4",
