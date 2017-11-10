@@ -2428,7 +2428,7 @@ body {
 .cid-qAvd3rNqlC {
   padding-top: 120px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/trees.jpg");
+  background-image: url("../../../assets/images/parc-3.jpg");
 }
 .cid-qAvd3rNqlC H2 {
   color: #ffffff;
@@ -3724,6 +3724,9 @@ body {
 .cid-qAzzn0SRtY H3 {
   color: #232323;
 }
+.cid-qAzzn0SRtY H1 {
+  color: #efefef;
+}
 .cid-qAzD5R2b4i {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -3827,6 +3830,14 @@ body {
 .cid-qAzSyZikzn .card-title {
   color: #333333;
   text-align: center;
+}
+.cid-qAApVxCnOI {
+  padding-top: 30px;
+  padding-bottom: 0px;
+  background-image: url("../../../assets/images/trees.jpg");
+}
+.cid-qAApVxCnOI SPAN {
+  color: #ffffff;
 }
 .cid-qAzXIJj0qY {
   padding-top: 30px;
