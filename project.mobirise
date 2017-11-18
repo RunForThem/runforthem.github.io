@@ -3,7 +3,7 @@
     "name": "La Run Fior Them by SOS ",
     "currentPage": "Accueil.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 131,
+    "uniqCompNum": 132,
     "versionPublish": "4.3.5",
     "theme": {
       "name": "mobirise4",
@@ -487,37 +487,6 @@
         },
         {
           "_styles": {
-            "& when (@fullWidth = false)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "background": "@bgColor",
-            "& when (@gradientBg)": {
-              "background": "linear-gradient(0deg, @bgColor, @color2)"
-            },
-            ".video-block": {
-              "margin": "auto",
-              "& when (@fullWidth)": {
-                "width": "100% !important"
-              }
-            },
-            "@media (max-width: 768px)": {
-              ".video-block": {
-                "width": "100% !important"
-              }
-            }
-          },
-          "_name": "video3",
-          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"80\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffffff\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
-          "_cid": "qBk8W7MckI",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "video3-3m"
-        },
-        {
-          "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'color')": {
@@ -972,7 +941,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Comment Venir ?",
-        "order": 3
+        "order": 2
       },
       "components": [
         {
@@ -1799,7 +1768,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Nos partenaires",
-        "order": 4
+        "order": 3
       },
       "components": [
         {
@@ -2484,7 +2453,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Qui sommes nous ?&nbsp;",
-        "order": 5
+        "order": 3
       },
       "components": [
         {
@@ -2876,7 +2845,7 @@
             }
           },
           "_name": "menu2",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"5\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ff0000\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffdf64\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"Accueil.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/logo-rft-interieur-blanc.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-danger\" data-app-selector=\".navbar-caption\" href=\"#top\">\n                        LA RUN FOR THEM BY SOS</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown\"><a class=\"nav-link link dropdown-toggle text-danger\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">COURSES</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-danger\" href=\"parcours10km.html#content5-27\" data-app-selector=\".nav-link,.dropdown-item\">PARCOURS 10 KM</a><a class=\"dropdown-item text-danger\" href=\"parcours5km.html#content5-2a\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\">PARCOURS 5 KM<br></a><a class=\"dropdown-item text-danger\" href=\"parcoursenfants.html#content5-2d\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\">COURSES ENFANTS<br></a><a class=\"dropdown-item text-danger\" href=\"résultats.html#content5-1h\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\">RESULTATS</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"Quisommesnous.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\">QUI SOMMES <br>NOUS ?&nbsp;</a></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-danger dropdown-toggle\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">INFOS <br>PRATIQUES&nbsp;</a><div class=\"dropdown-menu\"><a class=\"text-danger dropdown-item\" href=\"programme.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\">PROGRAMME</a><a class=\"text-danger dropdown-item\" href=\"Acces.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\">COMMENT VENIR ?</a><a class=\"text-danger dropdown-item\" href=\"Réglement.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\">REGLEMENT</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"partenaires.html#content5-3e\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\">NOS <br>PARTENAIRES&nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\"></a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-warning-outline\" href=\"Accueil.html\">INSCRIPTION (bientôt)</a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"5\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ff0000\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffdf64\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"Accueil.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/logo-rft-interieur-blanc.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-danger\" data-app-selector=\".navbar-caption\" href=\"Accueil.html\">\n                        LA RUN FOR THEM BY SOS</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown\"><a class=\"nav-link link dropdown-toggle text-danger\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">COURSES</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-danger\" href=\"parcours10km.html#content5-27\" data-app-selector=\".nav-link,.dropdown-item\">PARCOURS 10 KM</a><a class=\"dropdown-item text-danger\" href=\"parcours5km.html#content5-2a\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\">PARCOURS 5 KM<br></a><a class=\"dropdown-item text-danger\" href=\"parcoursenfants.html#content5-2d\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\">COURSES ENFANTS<br></a><a class=\"dropdown-item text-danger\" href=\"résultats.html#content5-1h\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\">RESULTATS</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"Quisommesnous.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\">QUI SOMMES <br>NOUS ?&nbsp;</a></li><li class=\"nav-item dropdown open\"><a class=\"nav-link link text-danger dropdown-toggle\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">INFOS <br>PRATIQUES&nbsp;</a><div class=\"dropdown-menu\"><a class=\"text-danger dropdown-item\" href=\"programme.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\">PROGRAMME</a><a class=\"text-danger dropdown-item\" href=\"Acces.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\">COMMENT VENIR ?</a><a class=\"text-danger dropdown-item\" href=\"Réglement.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\">REGLEMENT</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"partenaires.html#content5-3e\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\">NOS <br>PARTENAIRES&nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\"></a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-warning-outline\" href=\"Accueil.html\">INSCRIPTION (bientôt)</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "qzfDYFv2UY",
           "_anchor": "menu2-1j",
           "_protectedParams": [],
@@ -3400,7 +3369,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Réglement",
-        "order": 6
+        "order": 5
       },
       "components": [
         {
@@ -4141,7 +4110,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Programme",
-        "order": 7
+        "order": 6
       },
       "components": [
         {
@@ -4940,7 +4909,7 @@
       "settings": {
         "meta_descr": "Web Page Generator Description",
         "title": "Parcours 10 Km",
-        "order": 8
+        "order": 7
       },
       "components": [
         {
@@ -5678,7 +5647,7 @@
       "settings": {
         "meta_descr": "Web Creator Description",
         "title": "Parcours 5 Km",
-        "order": 9
+        "order": 8
       },
       "components": [
         {
@@ -6416,7 +6385,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Parcours Enfants",
-        "order": 10
+        "order": 9
       },
       "components": [
         {
@@ -7154,7 +7123,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "Résultats",
-        "order": 11
+        "order": 10
       },
       "components": [
         {
