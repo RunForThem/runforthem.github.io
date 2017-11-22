@@ -1727,60 +1727,48 @@ body {
     font-size: 0.8rem;
   }
 }
-.cid-qAv8t5ExKT {
+.cid-qBGX8UcJQR {
   padding-top: 90px;
   padding-bottom: 90px;
 }
-.cid-qAv8t5ExKT .list-group-item {
-  padding: .75rem 3.25rem;
-}
-.cid-qAv8t5ExKT .plan {
-  word-break: break-word;
-  position: relative;
-  max-width: 300px;
-  padding-right: 0;
-  padding-left: 0;
+.cid-qBGX8UcJQR .pricing {
+  padding: 3.3rem;
   color: #767676;
-}
-.cid-qAv8t5ExKT .plan .list-group-item {
-  position: relative;
-  -webkit-justify-content: center;
-  justify-content: center;
-  border: 0;
-}
-.cid-qAv8t5ExKT .plan .list-group-item::after {
-  position: absolute;
-  bottom: 0;
-  left: 20%;
-  width: 60%;
-  height: 2px;
-  content: "";
-  background-color: #eaeaea;
-}
-.cid-qAv8t5ExKT .plan .list-group-item:last-child::after {
-  display: none;
-}
-.cid-qAv8t5ExKT .plan-header {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-.cid-qAv8t5ExKT .plan-header,
-.cid-qAv8t5ExKT .plan-body {
   background-color: #fff;
 }
-.cid-qAv8t5ExKT .price-figure {
+@media (max-width: 767px) {
+  .cid-qBGX8UcJQR .pricing {
+    padding: 1.5rem;
+  }
+}
+.cid-qBGX8UcJQR .plan-header,
+.cid-qBGX8UcJQR .plan-body {
+  background-color: #fff;
+}
+.cid-qBGX8UcJQR .plan-title {
+  margin-top: 1.4rem;
+  text-align: center;
+  color: #007740;
+}
+.cid-qBGX8UcJQR .price-figure {
   font-weight: 700;
   color: #007740;
-  text-align: center;
+  text-align: right;
 }
-.cid-qAv8t5ExKT .price-value {
+@media (max-width: 550px) {
+  .cid-qBGX8UcJQR .price-figure {
+    font-size: 4.25rem;
+  }
+}
+.cid-qBGX8UcJQR .price-value {
   font-weight: 700;
   vertical-align: top;
 }
-@media (max-width: 550px) {
-  .cid-qAv8t5ExKT .price-figure {
-    font-size: 4.25rem;
-  }
+.cid-qBGX8UcJQR hr {
+  margin: 2rem 0;
+}
+.cid-qBGX8UcJQR P {
+  text-align: center;
 }
 .cid-qznLwuS6i2 {
   padding-top: 30px;
@@ -7868,6 +7856,29 @@ body {
 }
 .cid-qznQqtTUVh H2 {
   color: #ffffff;
+}
+.cid-qBGPN49yok {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-qBGPN49yok .line {
+  background-color: #007740;
+  color: #007740;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-qBGPN49yok .section-text {
+  padding: 2rem 0;
+}
+.cid-qBGPN49yok .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-qBGPN49yok .inner-container {
+    width: 100% !important;
+  }
 }
 .cid-qAvJ9mYLoa {
   padding-top: 30px;
