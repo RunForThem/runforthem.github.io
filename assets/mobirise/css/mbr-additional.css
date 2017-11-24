@@ -1748,7 +1748,7 @@ body {
 .cid-qBGX8UcJQR .plan-title {
   margin-top: 1.4rem;
   text-align: center;
-  color: #007740;
+  color: #232323;
 }
 .cid-qBGX8UcJQR .price-figure {
   font-weight: 700;
@@ -1769,6 +1769,9 @@ body {
 }
 .cid-qBGX8UcJQR P {
   text-align: center;
+}
+.cid-qBGX8UcJQR .plan-title B {
+  color: #007740;
 }
 .cid-qznLwuS6i2 {
   padding-top: 30px;
