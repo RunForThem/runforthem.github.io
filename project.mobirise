@@ -3801,6 +3801,9 @@
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
+            },
+            "B": {
+              "color": "#ffffff"
             }
           },
           "_name": "header1",
