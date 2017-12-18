@@ -1640,6 +1640,20 @@ body {
 .cid-qzfOAmXa4Q H3 {
   text-align: right;
 }
+.cid-qE9RbI4D60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #ffffff;
+  background: linear-gradient(0deg, #ffffff, #ffffff);
+}
+.cid-qE9RbI4D60 .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-qE9RbI4D60 .video-block {
+    width: 100% !important;
+  }
+}
 .cid-qzfRmybnXd {
   padding-top: 30px;
   padding-bottom: 45px;
