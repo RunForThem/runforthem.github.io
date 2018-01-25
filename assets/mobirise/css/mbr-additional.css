@@ -1296,18 +1296,28 @@ body {
   text-align: center;
   color: #007740;
 }
-.cid-qHLfptXi6a {
-  background-image: url("../../../assets/images/affiche-course-couv-event-fb.png");
+.cid-qHLnfHMAN8 {
+  background: #ffffff;
 }
-.cid-qHLfptXi6a H1 {
-  text-align: right;
+.cid-qHLnfHMAN8 .image-block {
+  margin: auto;
+  width: 100% !important;
 }
-.cid-qHLfptXi6a .mbr-text,
-.cid-qHLfptXi6a .mbr-section-btn {
-  text-align: right;
+.cid-qHLnfHMAN8 .mbr-figure {
+  margin: 0 auto;
 }
-.cid-qHLfptXi6a H3 {
-  text-align: right;
+.cid-qHLnfHMAN8 figcaption {
+  position: relative;
+}
+.cid-qHLnfHMAN8 figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-qHLnfHMAN8 .image-block {
+    width: 100% !important;
+  }
 }
 .cid-qzfDYFv2UY .navbar {
   background: #ffdf64;
