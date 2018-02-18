@@ -1839,7 +1839,7 @@ body {
 .cid-qBGX8UcJQR .plan-title {
   margin-top: 1.4rem;
   text-align: center;
-  color: #007740;
+  color: #232323;
 }
 .cid-qBGX8UcJQR .price-figure {
   font-weight: 700;
@@ -1860,8 +1860,12 @@ body {
 }
 .cid-qBGX8UcJQR P {
   text-align: center;
+  color: #232323;
 }
 .cid-qBGX8UcJQR .plan-title B {
+  color: #007740;
+}
+.cid-qBGX8UcJQR B {
   color: #007740;
 }
 .cid-qFF6ib4Vko {
@@ -5900,7 +5904,7 @@ body {
   padding-bottom: 30px;
 }
 .cid-qHLEaYjGhD {
-  padding-top: 15px;
+  padding-top: 30px;
   padding-bottom: 15px;
   background-color: #ffffff;
 }
@@ -5914,6 +5918,9 @@ body {
 }
 .cid-qHLEaYjGhD .mbr-text B {
   color: #2e2e2e;
+}
+.cid-qHLEaYjGhD .mbr-text P {
+  color: #232323;
 }
 .cid-qABzwwGmnl {
   padding-top: 0px;
@@ -6989,8 +6996,8 @@ body {
   padding-bottom: 30px;
 }
 .cid-qHLETd4MGO {
-  padding-top: 15px;
-  padding-bottom: 0px;
+  padding-top: 30px;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
 .cid-qHLETd4MGO .mbr-text,
@@ -7000,6 +7007,9 @@ body {
 .cid-qHLETd4MGO .mbr-text {
   color: #232323;
   text-align: center;
+}
+.cid-qHLETd4MGO .mbr-text B {
+  color: #007740;
 }
 .cid-qACh2fvj09 {
   padding-top: 15px;
@@ -8418,7 +8428,7 @@ body {
   color: #232323;
 }
 .cid-qCKTbQUMCt .section-text SPAN {
-  color: #2e2e2e;
+  color: #232323;
 }
 .cid-qF07KoaWCN {
   padding-top: 45px;
