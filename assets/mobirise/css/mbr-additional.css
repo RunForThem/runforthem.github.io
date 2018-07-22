@@ -1254,6 +1254,21 @@ body {
   height: auto;
   min-height: 100vh;
 }
+.cid-qYx4km50ix {
+  padding-top: 90px;
+  padding-bottom: 60px;
+  background-image: url("../../../assets/images/parc.png");
+}
+.cid-qYx4km50ix .mbr-figure {
+  margin: 0 auto;
+}
+.cid-qYx4km50ix H1 {
+  text-align: right;
+}
+.cid-qYx4km50ix .mbr-text,
+.cid-qYx4km50ix .mbr-section-btn {
+  text-align: left;
+}
 .cid-qzfDYFv2UY .navbar {
   background: #ffdf64;
   transition: none;
@@ -1634,28 +1649,6 @@ body {
     flex-shrink: 0;
   }
 }
-.cid-qYwmTG3Cnm {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-image: url("../../../assets/images/parc-de-lile-damour.jpg");
-}
-@media (min-width: 992px) {
-  .cid-qYwmTG3Cnm .mbr-figure {
-    padding-left: 4rem;
-  }
-}
-@media (max-width: 991px) {
-  .cid-qYwmTG3Cnm .mbr-figure {
-    padding-top: 3rem;
-  }
-}
-.cid-qYwmTG3Cnm .mbr-text,
-.cid-qYwmTG3Cnm .mbr-section-btn B {
-  color: #ffffff;
-}
-.cid-qYwmTG3Cnm .mbr-section-title {
-  text-align: left;
-}
 .cid-qFABT55rJ1 {
   padding-top: 0px;
   padding-bottom: 15px;
@@ -1676,11 +1669,6 @@ body {
 }
 .cid-qFABT55rJ1 .mbr-text B {
   color: #007740;
-}
-.cid-qYwmPFz7Ex {
-  padding-top: 30px;
-  padding-bottom: 15px;
-  background-image: url("../../../assets/images/parc-de-lile-damour.jpg");
 }
 .cid-qEWo55tOdO {
   padding-top: 45px;
