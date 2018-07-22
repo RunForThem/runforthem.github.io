@@ -1254,19 +1254,35 @@ body {
   height: auto;
   min-height: 100vh;
 }
-.cid-qYx4km50ix {
+.cid-qYxaxhElvX {
   padding-top: 90px;
-  padding-bottom: 60px;
-  background-image: url("../../../assets/images/parc.png");
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/parc.jpeg");
 }
-.cid-qYx4km50ix .mbr-figure {
-  margin: 0 auto;
+@media (min-width: 992px) {
+  .cid-qYxaxhElvX .mbr-figure {
+    padding-left: 4rem;
+  }
 }
-.cid-qYx4km50ix H1 {
-  text-align: right;
+@media (max-width: 991px) {
+  .cid-qYxaxhElvX .mbr-figure {
+    padding-top: 3rem;
+  }
 }
-.cid-qYx4km50ix .mbr-text,
-.cid-qYx4km50ix .mbr-section-btn {
+.cid-qYxaxhElvX .media-container-row {
+  flex-direction: row-reverse;
+}
+@media (min-width: 992px) {
+  .cid-qYxaxhElvX .media-container-row .mbr-figure {
+    padding-left: 0;
+    padding-right: 4rem;
+  }
+}
+.cid-qYxaxhElvX .mbr-text,
+.cid-qYxaxhElvX .mbr-section-btn B {
+  color: #ffffff;
+}
+.cid-qYxaxhElvX .mbr-section-title {
   text-align: left;
 }
 .cid-qzfDYFv2UY .navbar {
