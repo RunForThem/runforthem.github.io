@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "La Run For Them by SOS ",
-    "currentPage": "Accueil.html",
+    "currentPage": "parcours10km.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 316,
     "versionPublish": "4.3.5",
@@ -55,7 +55,12 @@
         "name": "PT Sans",
         "url": "https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i"
       }
-    ]
+    ],
+    "siteUrl": "",
+    "sitemapSwitcherAuto": "on",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-110189849-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-110189849-1');\r\n</script>\r\n"
   },
   "pages": {
     "Accueil.html": {
