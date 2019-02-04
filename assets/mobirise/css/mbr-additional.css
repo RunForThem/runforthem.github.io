@@ -7853,6 +7853,24 @@ body {
 .cid-r6sVyypCf0 .card-box {
   padding-top: 2rem;
 }
+.cid-rh7EGGQdxn {
+  padding-top: 60px;
+  padding-bottom: 45px;
+  background-color: #ffffff;
+}
+@media (min-width: 992px) {
+  .cid-rh7EGGQdxn .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 992px) {
+  .cid-rh7EGGQdxn .mbr-figure {
+    padding-bottom: 1rem;
+  }
+}
+.cid-rh7EGGQdxn .mbr-text {
+  color: #767676;
+}
 .cid-r6sRobuW7T {
   padding-top: 45px;
   padding-bottom: 45px;
