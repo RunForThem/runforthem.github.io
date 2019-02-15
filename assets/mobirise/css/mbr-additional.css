@@ -9057,6 +9057,19 @@ body {
 .cid-ri8G5Optq7 blockquote {
   color: #767676;
 }
+.cid-ri9JO27tx5 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #ffffff;
+}
+.cid-ri9JO27tx5 .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-ri9JO27tx5 .video-block {
+    width: 100% !important;
+  }
+}
 .cid-r6sRobuW7T {
   padding-top: 45px;
   padding-bottom: 45px;
