@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "La Run For Them by SOS ",
-    "currentPage": "page10.html",
+    "currentPage": "autres_courses.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -8725,7 +8725,7 @@
         }
       ]
     },
-    "page10.html": {
+    "autres_courses.html": {
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Les autres courses du réseau Run For Them",
