@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "La Run For Them by SOS ",
-    "currentPage": "autrescoursesrunforthem.html",
+    "currentPage": "accueilrunforthem.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1017,7 +1017,7 @@
       "settings": {
         "main": true,
         "title": "Run For Them",
-        "meta_descr": "Run For Them by SOS Accueil\nCourse Solidaire\nFondation du Souffle\nDimanche 29 mars 2020",
+        "meta_descr": "Retrouvez nous pour la 4è édition de la Run For Them by SOS le dimanche 29 mars 2020 au parc de l'Île d'Amour. Les bénéfices de cette course solidaire sont reversés à la Fondation du Souffle.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -5612,7 +5612,7 @@
               "color": "#767676"
             },
             "H2": {
-              "color": "#007740"
+              "color": "#232323"
             },
             ".mbr-section-subtitle B": {
               "color": "#004026"
@@ -5642,7 +5642,7 @@
               "color": "#767676"
             },
             "H2": {
-              "color": "#007740"
+              "color": "#232323"
             },
             ".mbr-section-subtitle B": {
               "color": "#004026"
@@ -5672,7 +5672,7 @@
               "color": "#232323"
             },
             "H2": {
-              "color": "#007740"
+              "color": "#232323"
             },
             ".mbr-section-subtitle B": {
               "color": "#004026"
